@@ -1,0 +1,84 @@
+# Level 1
+
+START_LEVEL
+level_name:Mess Level
+ball_velocities:45,9 -45,10
+background:image(background_images/Pokemon1.jpg)
+paddle_speed:6
+paddle_width:160
+block_definitions:definitions/pokemon_block_definitions.txt
+blocks_start_x:50
+blocks_start_y:80
+row_height:25
+num_blocks:26
+START_BLOCKS
+///y
+-//r/-b
+/GG-/bb//b
+-
+//rrrrr
+GG/y//GG
+-
+y/r//b-b
+-
+-G-G-y//y
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# narrow paddle
+
+START_LEVEL
+level_name: Black&White
+ball_velocities:45,10 46,10 47,10
+background:image(background_images/Pokemon2.jpg)
+paddle_speed:8
+paddle_width:100
+block_definitions:definitions/pokemon_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:50
+START_BLOCKS
+-
+-
+=ww=ww=w=ww=w=ww=w
+BB=B=BB=BB=B=B=B=B
+ww=www=w=w=ww=w=w=
+B=BB=BBB=B=B=B=BBB
+wwww=www=BBB=www=w
+-
+BBwwBBwwBBwwBBwwBw
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# tiny Blocks
+
+START_LEVEL
+level_name: Sooo Small!
+ball_velocities:45,10
+background:image(background_images/Pokemon3.jpg)
+paddle_speed:6
+paddle_width:160
+block_definitions:definitions/pokemon_block_definitions.txt
+blocks_start_x:80
+blocks_start_y:80
+row_height:25
+num_blocks:105
+START_BLOCKS
+-
+-
+*****s*****/*******s*******/*****s*****
+***s***s***/*****s***s*****/***s***s***
+*s*******s*/***s*******s***/*s*******s*
+*s*******s*/**s*********s**/*s*******s*
+***s***s***/*s*****s*****s*/***s***s***
+*****s*****/*s*****s*****s*/*****s*****
+***********/**s*********s**/***********
+***********/***s*******s***/
+***********/*****s***s*****/
+***********/*******s*******/
+
+END_BLOCKS
+END_LEVEL

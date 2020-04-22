@@ -1,0 +1,17 @@
+# block definitions
+bdef symbol:G width:20 height:25 hit_points:2 fill:color(lightGray) fill-1:color(black)
+bdef symbol:b width:20 height:40 hit_points:3 fill:color(black) fill-1:color(lightGray) fill-1:color(cyan) stroke:color(black)
+bdef symbol:y fill:color(yellow) width:80 height:25 hit_points:2 fill:color(cyan) fill-1:color(lightGray) stroke:color(black)
+bdef symbol:r width:20 height:25 hit_points:1 fill:color(red) stroke:color(black)
+bdef symbol:B width:40 height:25 hit_points:4 fill:color(black) fill-1:color(white) fill-2:color(black) fill-3:color(white) stroke:color(white)
+bdef symbol:w width:40 height:25 hit_points:4 fill:color(white) fill-1:color(black) fill-2:color(white) fill-3:color(black) stroke:color(black)
+bdef symbol:s width:10 height:10 hit_points:2 fill:color(orange) fill-1:color(blue) stroke:color(black)
+
+bdef symbol:l width:100 height:100 hit_points:3 fill-3:color(RGB(244,248,129)) fill-2:color(RGB(205,208,112)) fill-1:color(RGB(154,157,84))
+
+
+# spacers definitions
+sdef symbol:- width:50
+sdef symbol:/ width:100
+sdef symbol:= width:40
+sdef symbol:* width:10

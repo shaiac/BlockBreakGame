@@ -1,0 +1,6 @@
+e:SouthPark (easy)
+definitions/SouthPark_Level_Definitions.txt
+m:RickMorty (medium)
+definitions/RickMorty_Level_Definitions.txt
+h:Pokemon (hard)
+definitions/Pokemon_Level_Definitions.txt
